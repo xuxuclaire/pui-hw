@@ -1,0 +1,165 @@
+
+* {
+    box-sizing: border-box;
+}
+
+/* text styles */
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 26px;
+    font-weight: 100;
+}
+
+h1 {
+    font-size: 80%;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+
+    margin: auto;
+    display: block;
+
+    margin-bottom: 25px;
+}
+
+h2 {
+    font-size:xx-large;
+    font-weight: 100;
+    margin: auto;
+    display: block;
+    text-align: center;
+
+    margin-bottom: 50px;
+}
+
+p {
+    max-width: 350px;
+    margin: auto;
+    display: block;
+    text-align: left
+}
+
+header {
+    margin: 10px;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+footer {
+    text-align: center;
+}
+
+hr {
+    height: 7px;
+    background: black;
+}
+
+nav {
+    margin-bottom: 100px;
+}
+
+.product-name{
+    text-decoration:underline;
+}
+
+.items-info{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.options{
+    margin-top: 75px;
+}
+
+.checkout{
+    width: 800px;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+button{
+    background-color:#FFFF00;
+    border:3p solid black;
+    padding: 10px 25px;
+    text-align: center;
+}
+
+#current-page {
+    font-weight: 700;
+
+    max-width: 125px;
+    background:#FFFF00;
+}
+
+#glazing {
+    margin: auto;
+    display: block;
+    text-align: left;
+    width: 350px;
+    height: 30px;
+
+    margin-top: -50px; /* is this ok to reduce the gap between selector and label? */
+    margin-bottom: 40px;
+}
+
+#pack-size {
+    margin: auto;
+    display: block;
+    text-align: left;
+    width: 350px;
+    height: 30px;
+
+    margin-top: -50px; /* is this ok to reduce the gap between selector and label? */
+    margin-bottom: 50px;
+}
+
+#total-price {
+    margin-bottom: 20px;
+    margin-top:30px;
+}
+
+.product-imgs {
+    border: 3px solid black;
+    margin: auto;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.logo {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+/* link styles */
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.roll{
+    padding: 10px;
+    margin-right: 405px;
+    margin-left: 405px;
+    margin-bottom: 25px;
+}
+
+.description{
+    margin-top: 30px;
+}
+
+.page-end {
+    display: inline-block;
+    vertical-align: center;
+}
+
+/* hover styles */
+.roll:hover {
+    background-color: #FFFF00;
+}
+
+a:active {
+    background-color: #FFFF00;
+}
+

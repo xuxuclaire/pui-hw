@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./style.css" type="text/css"/>
+    <title>Product Detail</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html">
+            <img class="logo" src="./assets/logo/logo-01.svg" width="450" alt="Logo">
+        </a>
+        <hr>
+    </header>
+
+    <nav>
+        <a href="index.html"><h1 id="current-page">Products</h1></a>
+        <a href="shoppingcart.html"><h1>Cart</h1></a>
+    </nav>
+
+    <main>
+        <h2>Original cinnamon roll</h2>
+        <img class="product-imgs" src="./assets/products/original-cinnamon-roll.jpg" width="700" alt="Original cinnamon roll">
+        <div class="description"> 
+            <p>Customize our delicious, hand-made cinammon roll to your liking!</p>
+        </div>
+
+        <div class="options">
+            <p>Glazing:</p>
+            <br><br>
+            <select name="glazing" id="glazing">
+                <option value="keep original">Keep Original</option>
+                <option value="sugar milk">Sugar milk</option>
+                <option value="vanilla milk">Vanilla milk</option>
+                <option value="double chocolate">Double chocolate</option>
+            </select>
+
+            <p>Pack size:</p>
+            <br><br>
+            <select name="pack-size" id="pack-size">
+                <option value="1">1</option>
+                <option value="3">3</option>
+                <option value="6">6</option>
+                <option value="12">12</option>
+            </select>
+        </div>
+
+        <footer>
+            <div class="page-end">
+                <h1>$2.49</h1>
+            </div>
+            <div class="page-end">
+                <button>Add to cart</button>
+            </div>
+        </footer>  
+    </main>
+</body>
+</html>

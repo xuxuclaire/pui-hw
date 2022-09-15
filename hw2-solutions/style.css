@@ -253,6 +253,9 @@ a {
 /* hover styles */
 .roll:hover {
     background-color: #FFFF00;
+}
+
+.product-name:hover {
     font-weight: bold;
 }
 

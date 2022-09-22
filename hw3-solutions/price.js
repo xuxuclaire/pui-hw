@@ -49,7 +49,6 @@ for (let i = 0; i < glazeOptions.length; i += 1){
     option.text = glazeOptions[i].glaze;
     option.value = glazeOptions[i].price;
     glazeInput.add(option);
-    console.log("This loop has run this many times: ", i);
 }
 
 for (let i = 0; i < sizeOptions.length; i += 1){
@@ -61,13 +60,11 @@ for (let i = 0; i < sizeOptions.length; i += 1){
 
 function onSelectGlazeChange(){
     glazingExtra = parseFloat(this.value);
-    console.log(glazingExtra);
     priceOutput.innerHTML = "$" + ((basePrice + glazingExtra) * packExtra).toFixed(2);
 }
 
 function onSelectSizeChange(){
     packExtra = parseFloat(this.value);
-    console.log(packExtra);
     priceOutput.innerHTML = "$" + ((basePrice + glazingExtra) * packExtra).toFixed(2);
 }
 

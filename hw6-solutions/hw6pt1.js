@@ -1,7 +1,3 @@
-export const kit = {
-    floc: true
-};
-
 let addToCart = document.querySelector("#add-to-cart");
 addToCart.addEventListener('click', submitRoll);
 

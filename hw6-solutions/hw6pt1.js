@@ -37,7 +37,7 @@ function saveToLocalStorage(){
     const rollCartArray = Array.from(cartSetDetailPage);
     const rollCartArrayString = JSON.stringify(rollCartArray);
     localStorage.setItem('storedItems', rollCartArrayString);
-    console.log(rollCartArray);
+    console.log(rollCartArrayString);
     
 }
 

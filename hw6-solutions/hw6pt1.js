@@ -1,6 +1,3 @@
-$config['system.core']['block_interest_cohort'] = FALSE;
-
-
 let addToCart = document.querySelector("#add-to-cart");
 addToCart.addEventListener('click', submitRoll);
 

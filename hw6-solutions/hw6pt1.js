@@ -26,7 +26,7 @@ function submitRoll(){
     cartSetDetailPage.add(rollItem);
     //console.log(cartSetDetailPage);
     if (localStorage.getItem('storedItems') == null){
-        saveToLocalStorage;
+        saveToLocalStorage();
     } else {
         addToLocalStorage(rollItem);
     }

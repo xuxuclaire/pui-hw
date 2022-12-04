@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <!--jQuery-->
+        <script src="./assets/jquery-3.6.1.min.js" type="text/javascript"></script>
+
+        <link rel="stylesheet" href="./style.css" type="text/css"/>
+        <link rel="stylesheet" href="//fonts.googleapis.com/css?family=IBM+Plex+Mono:300,600,700">
+        <script src="saved.js" type="text/javascript" defer></script>
+
+
+        <!--animate.css-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+        <title>Welcome And Setup Page</title>
+    </head>
+
+    <body>
+        <div id="backdrop">
+            <div id="top-circle">
+                <img id="top-circle-content" src="./assets/top-bubble.png">
+            </div>
+            <div id="bottom-circle">
+                <img id="bottom-circle-content" src="./assets/bottom-bubble.png">
+            </div>
+            <!--buttons-->
+            <a href="index.html" id="home-icon"><img id="home-icon-content" src="./assets/home icon.png"></a>
+            <button id="saved-icon-clicked"><img id="saved-icon-content" src="./assets/saved icon gold.png"></button>
+
+        </div>
+        
+        <div id="drop-down">
+            <!--set up section-->
+            <h2 id="saved-content-header">Here are the questions you've saved.</h2>
+            <div id="saved-drop-down-content">
+                <template class="saved-content-template">
+                    <div class="saved-question-item">
+                        <div class="saved-question-display">
+                            <div class="saved-question-info">
+                                <h2>Question</h2>
+                                <h2 class="saved-current-qnumber">?</h2>
+                                <h2>out of</h2>
+                                <h2 class="saved-total-qnumber">?</h2>
+                                <h2> / </h2>
+                                <h2 class="saved-selected-profession">??</h2>
+                            </div>
+                            <h1 class="saved-current-question">What do you do when a project doesn't go as planned?</h1>
+                        </div>
+                        <button class="delete-saved"><img class="delete-saved-content" src="./assets/delete saved.png"></button>
+                    </div>
+                </template>
+            </div>
+            <div id="drop-down-bg"></div>
+        </div>
+    </body>
